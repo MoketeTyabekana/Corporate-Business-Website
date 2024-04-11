@@ -22,10 +22,12 @@
     justify-content: space-between;
 }
 
-.logo{
+.navbar .logo{
     width:120px;
     cursor: pointer;
-    color: #fff;
+    color: orange;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
 }
 
 .navbar ul li{
@@ -55,4 +57,45 @@
 
 .navbar ul li :hover:after{
     width: 100%;
+}
+
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#fff;
+    
+}
+
+.content h1{
+    color:orange;
+    margin-bottom:20px;
+}
+.content p{
+    margin-bottom:20px;
+}
+
+
+.content{
+    line-height: 25px;
+}
+
+button{
+    width: 120px;
+    background-color: orange;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+button a{
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
 }
